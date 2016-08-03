@@ -33,6 +33,17 @@
     "concurrently": "^2.0.0",
     "lite-server": "^2.2.0",
     "typescript": "^1.8.10",
-    "typings":"^1.0.4"
-  }
+    "typings": "^1.0.4"
+  },
+  "main": "systemjs.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prowe214/angular2-tour-of-heroes.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/prowe214/angular2-tour-of-heroes/issues"
+  },
+  "homepage": "https://github.com/prowe214/angular2-tour-of-heroes#readme",
+  "description": ""
 }

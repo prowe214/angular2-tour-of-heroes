@@ -15,17 +15,21 @@ var HeroDetailComponent = (function () {
     }
     __decorate([
         core_1.Input(), 
-        __metadata('design:type', (typeof (_a = typeof hero_1.Hero !== 'undefined' && hero_1.Hero) === 'function' && _a) || Object)
+        __metadata('design:type', hero_1.Hero)
     ], HeroDetailComponent.prototype, "hero", void 0);
     HeroDetailComponent = __decorate([
         core_1.Component({
             selector: 'my-hero-detail',
-            template: "\n        <div *ngIf=\"hero\">\n            <h2>{{hero.name}} details!</h2>\n            <div><label>id: </label>{{hero.id}}</div>\n            <div>\n                <label>name: </label>\n                <input [(ngModel)]=\"hero.name\" placeholder=\"name\">\n            </div>\n        </div>\n    "
+            template: "\n    <div *ngIf=\"hero\">\n      <h2>{{hero.name}} details!</h2>\n      <div><label>id: </label>{{hero.id}}</div>\n      <div>\n        <label>name: </label>\n        <input [(ngModel)]=\"hero.name\" placeholder=\"name\"/>\n      </div>\n    </div>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], HeroDetailComponent);
     return HeroDetailComponent;
-    var _a;
 }());
 exports.HeroDetailComponent = HeroDetailComponent;
+/*
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
 //# sourceMappingURL=hero-detail.component.js.map
